@@ -1,0 +1,16 @@
+PODS:
+  - SOLIDArch (0.1.0)
+
+DEPENDENCIES:
+  - SOLIDArch (from `../`)
+
+EXTERNAL SOURCES:
+  SOLIDArch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SOLIDArch: 2bbba541a916c16a7da34c7e7ae46cae540118db
+
+PODFILE CHECKSUM: 1537bde423df7f036e943381dff200e5ff49ee27
+
+COCOAPODS: 1.8.4

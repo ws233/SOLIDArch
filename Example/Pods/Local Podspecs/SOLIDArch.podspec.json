@@ -1,0 +1,22 @@
+{
+  "name": "SOLIDArch",
+  "version": "0.1.0",
+  "summary": "A short description of SOLIDArch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sma.aeris@gmail.com/SOLIDArch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sma.aeris@gmail.com": "kvmakankov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sma.aeris@gmail.com/SOLIDArch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SOLIDArch/Classes/**/*"
+}

@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E7C9ED57EC448B419E5C45AA5383793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		60F84CA2EC7D136D40A6E69381C40058 /* SOLIDArch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2760C58FD1314075D5A5CB60A446DC29 /* SOLIDArch-dummy.m */; };
+		658EC00325D37BFB40C5941A30F30051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6ECDB3AACC4C61BBA9BBC8EE759719AC /* Pods-SOLIDArch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6033209716BC4236FEE801ACEC78672B /* Pods-SOLIDArch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89CB0F48B529B44DD579E4A0AE2C984B /* SOLIDArch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D56EBB2FD1BBB262E25A07E01008A426 /* SOLIDArch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E2E3B11078023DE9A0A13F3D3574EE5 /* Pods-SOLIDArch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DCE1D4BDECB425AEF499B6D961759D /* Pods-SOLIDArch_Tests-dummy.m */; };
+		9C3FE08AB50B71822B6FBD0B2005EE5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C387BC055183A037B28C88A63F7F2587 /* Pods-SOLIDArch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DB6D36C69F6687D27F1CF53517AE3B /* Pods-SOLIDArch_Example-dummy.m */; };
+		DAB166DF23CA02D300D1A9BD /* ArrayDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166C523C9FF7100D1A9BD /* ArrayDataProvider.swift */; };
+		DAB166E023CA02D700D1A9BD /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166C723C9FF7100D1A9BD /* Configurable.swift */; };
+		DAB166E123CA02DB00D1A9BD /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166C423C9FF7100D1A9BD /* ItemViewModel.swift */; };
+		DAB166E223CA02DE00D1A9BD /* TableViewCellFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166C323C9FF7100D1A9BD /* TableViewCellFabric.swift */; };
+		DAB166E323CA02E200D1A9BD /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166C223C9FF7100D1A9BD /* TableViewDataSource.swift */; };
+		DAB166E423CA02E600D1A9BD /* ViewModelDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166C623C9FF7100D1A9BD /* ViewModelDataProvider.swift */; };
+		F64827244580272DF4E910C35829BC4E /* Pods-SOLIDArch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DE86228FD1D218A1BD5228A46FE15F /* Pods-SOLIDArch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77EDFF2903D6F76C551092001900B8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0994594612A32884C7B86A5CE8AEDEF;
+			remoteInfo = "Pods-SOLIDArch_Example";
+		};
+		9BB48EFBD9EF36C0AC96FB4FBB3744FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5134B07C5F01475EF575B437FCAA58C0;
+			remoteInfo = SOLIDArch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DCE1D4BDECB425AEF499B6D961759D /* Pods-SOLIDArch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SOLIDArch_Tests-dummy.m"; sourceTree = "<group>"; };
+		0817EA71EB9346BB8207C990E30C6562 /* Pods-SOLIDArch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOLIDArch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0D804FB9ABB7CD6DB496C560A1F9024B /* Pods-SOLIDArch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SOLIDArch_Tests.modulemap"; sourceTree = "<group>"; };
+		1F41EC96A2E3E33D1EB7CE0EBA5BA15B /* Pods_SOLIDArch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOLIDArch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2760C58FD1314075D5A5CB60A446DC29 /* SOLIDArch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SOLIDArch-dummy.m"; sourceTree = "<group>"; };
+		2A605C83C74C280B54B07294EB5C8CF7 /* SOLIDArch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOLIDArch-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4021ECDE43384AA983E9D88A7C8EEACB /* Pods-SOLIDArch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SOLIDArch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C3D673B94C8E148E58CCA53867CD705 /* Pods-SOLIDArch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SOLIDArch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		50A54B4C72D16C650BCE6C83558EE331 /* Pods-SOLIDArch_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOLIDArch_Tests-Info.plist"; sourceTree = "<group>"; };
+		54DADDC896F45876986C1DCC6FE56EDA /* Pods-SOLIDArch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOLIDArch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		56DB6D36C69F6687D27F1CF53517AE3B /* Pods-SOLIDArch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SOLIDArch_Example-dummy.m"; sourceTree = "<group>"; };
+		6033209716BC4236FEE801ACEC78672B /* Pods-SOLIDArch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SOLIDArch_Example-umbrella.h"; sourceTree = "<group>"; };
+		6CFAAE41762FF405A338E665A68241C5 /* Pods-SOLIDArch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOLIDArch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8F93A530FBEDC9868C99626B258D0840 /* SOLIDArch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SOLIDArch-Info.plist"; sourceTree = "<group>"; };
+		9B5B3AE052BE870B7D0A975DCE28AF3B /* Pods-SOLIDArch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SOLIDArch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE6CA7ACBFCE34770B8CE552BA422E21 /* Pods-SOLIDArch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOLIDArch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0CA3C8EAFF1CA590359C63797BF22BE /* Pods-SOLIDArch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SOLIDArch_Example.modulemap"; sourceTree = "<group>"; };
+		B4EE4AC5686B57B9A1D5865DF453A536 /* Pods_SOLIDArch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOLIDArch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE705C40E45D7CCB8742D910D1DFAF42 /* SOLIDArch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SOLIDArch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFD04B30A90F2931BABF30AFF3865403 /* SOLIDArch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SOLIDArch.modulemap; sourceTree = "<group>"; };
+		C0DE86228FD1D218A1BD5228A46FE15F /* Pods-SOLIDArch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SOLIDArch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C18D825EA05CA240B128AFF20F2704DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D56CA77E2EC572A962FE46611EA996D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D56EBB2FD1BBB262E25A07E01008A426 /* SOLIDArch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOLIDArch-umbrella.h"; sourceTree = "<group>"; };
+		DA96C1388EADC27D0C7770B9D7660BF3 /* Pods-SOLIDArch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOLIDArch_Example-Info.plist"; sourceTree = "<group>"; };
+		DAB166C223C9FF7100D1A9BD /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewDataSource.swift; path = SOLIDArch/Classes/TableViewDataSource.swift; sourceTree = "<group>"; };
+		DAB166C323C9FF7100D1A9BD /* TableViewCellFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCellFabric.swift; path = SOLIDArch/Classes/TableViewCellFabric.swift; sourceTree = "<group>"; };
+		DAB166C423C9FF7100D1A9BD /* ItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemViewModel.swift; path = SOLIDArch/Classes/ItemViewModel.swift; sourceTree = "<group>"; };
+		DAB166C523C9FF7100D1A9BD /* ArrayDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayDataProvider.swift; path = SOLIDArch/Classes/ArrayDataProvider.swift; sourceTree = "<group>"; };
+		DAB166C623C9FF7100D1A9BD /* ViewModelDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModelDataProvider.swift; path = SOLIDArch/Classes/ViewModelDataProvider.swift; sourceTree = "<group>"; };
+		DAB166C723C9FF7100D1A9BD /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configurable.swift; path = SOLIDArch/Classes/Configurable.swift; sourceTree = "<group>"; };
+		E5AC17BB7C184AE15FBE0D0741A07014 /* SOLIDArch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOLIDArch.xcconfig; sourceTree = "<group>"; };
+		E61D0B95E7D0CEF61519B6FC0EE65CD4 /* Pods-SOLIDArch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOLIDArch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF70618A7DAFB5FAF4142396689A1B1C /* Pods-SOLIDArch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SOLIDArch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1F9C0D664A77758E79C2B57378CE053 /* SOLIDArch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOLIDArch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F4E8837B767B4F98402E47CF9C7E291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658EC00325D37BFB40C5941A30F30051 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340165FFA8E353CA9D939D8C8D408DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3FE08AB50B71822B6FBD0B2005EE5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2BB4F6EB19024ACAF1F4A91CEDDE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7C9ED57EC448B419E5C45AA5383793 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2621ACEA7FB7B73D6F7BC5E1086987DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AA41E297E2D6BCF2BB0AA6DD3EA2C3A /* Pods-SOLIDArch_Example */,
+				6AEB4606B614D07E4BC767F4CE8BB94D /* Pods-SOLIDArch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2AA41E297E2D6BCF2BB0AA6DD3EA2C3A /* Pods-SOLIDArch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B0CA3C8EAFF1CA590359C63797BF22BE /* Pods-SOLIDArch_Example.modulemap */,
+				4021ECDE43384AA983E9D88A7C8EEACB /* Pods-SOLIDArch_Example-acknowledgements.markdown */,
+				E61D0B95E7D0CEF61519B6FC0EE65CD4 /* Pods-SOLIDArch_Example-acknowledgements.plist */,
+				56DB6D36C69F6687D27F1CF53517AE3B /* Pods-SOLIDArch_Example-dummy.m */,
+				4C3D673B94C8E148E58CCA53867CD705 /* Pods-SOLIDArch_Example-frameworks.sh */,
+				DA96C1388EADC27D0C7770B9D7660BF3 /* Pods-SOLIDArch_Example-Info.plist */,
+				6033209716BC4236FEE801ACEC78672B /* Pods-SOLIDArch_Example-umbrella.h */,
+				54DADDC896F45876986C1DCC6FE56EDA /* Pods-SOLIDArch_Example.debug.xcconfig */,
+				6CFAAE41762FF405A338E665A68241C5 /* Pods-SOLIDArch_Example.release.xcconfig */,
+			);
+			name = "Pods-SOLIDArch_Example";
+			path = "Target Support Files/Pods-SOLIDArch_Example";
+			sourceTree = "<group>";
+		};
+		561F07CE040D14D7C9E0330750ADE727 /* SOLIDArch */ = {
+			isa = PBXGroup;
+			children = (
+				DAB166C523C9FF7100D1A9BD /* ArrayDataProvider.swift */,
+				DAB166C723C9FF7100D1A9BD /* Configurable.swift */,
+				DAB166C423C9FF7100D1A9BD /* ItemViewModel.swift */,
+				DAB166C323C9FF7100D1A9BD /* TableViewCellFabric.swift */,
+				DAB166C223C9FF7100D1A9BD /* TableViewDataSource.swift */,
+				DAB166C623C9FF7100D1A9BD /* ViewModelDataProvider.swift */,
+				81072B574285B6283E11D5CAE6F31CA9 /* Pod */,
+				65D69C2D754A611B4997695722C89D03 /* Support Files */,
+			);
+			name = SOLIDArch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5B4391E2C06E84F95333AFBABACE7AEF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				561F07CE040D14D7C9E0330750ADE727 /* SOLIDArch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		65D69C2D754A611B4997695722C89D03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD04B30A90F2931BABF30AFF3865403 /* SOLIDArch.modulemap */,
+				E5AC17BB7C184AE15FBE0D0741A07014 /* SOLIDArch.xcconfig */,
+				2760C58FD1314075D5A5CB60A446DC29 /* SOLIDArch-dummy.m */,
+				8F93A530FBEDC9868C99626B258D0840 /* SOLIDArch-Info.plist */,
+				2A605C83C74C280B54B07294EB5C8CF7 /* SOLIDArch-prefix.pch */,
+				D56EBB2FD1BBB262E25A07E01008A426 /* SOLIDArch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SOLIDArch";
+			sourceTree = "<group>";
+		};
+		6AEB4606B614D07E4BC767F4CE8BB94D /* Pods-SOLIDArch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D804FB9ABB7CD6DB496C560A1F9024B /* Pods-SOLIDArch_Tests.modulemap */,
+				9B5B3AE052BE870B7D0A975DCE28AF3B /* Pods-SOLIDArch_Tests-acknowledgements.markdown */,
+				EF70618A7DAFB5FAF4142396689A1B1C /* Pods-SOLIDArch_Tests-acknowledgements.plist */,
+				01DCE1D4BDECB425AEF499B6D961759D /* Pods-SOLIDArch_Tests-dummy.m */,
+				50A54B4C72D16C650BCE6C83558EE331 /* Pods-SOLIDArch_Tests-Info.plist */,
+				C0DE86228FD1D218A1BD5228A46FE15F /* Pods-SOLIDArch_Tests-umbrella.h */,
+				AE6CA7ACBFCE34770B8CE552BA422E21 /* Pods-SOLIDArch_Tests.debug.xcconfig */,
+				0817EA71EB9346BB8207C990E30C6562 /* Pods-SOLIDArch_Tests.release.xcconfig */,
+			);
+			name = "Pods-SOLIDArch_Tests";
+			path = "Target Support Files/Pods-SOLIDArch_Tests";
+			sourceTree = "<group>";
+		};
+		81072B574285B6283E11D5CAE6F31CA9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D56CA77E2EC572A962FE46611EA996D8 /* LICENSE */,
+				C18D825EA05CA240B128AFF20F2704DE /* README.md */,
+				BE705C40E45D7CCB8742D910D1DFAF42 /* SOLIDArch.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5B4391E2C06E84F95333AFBABACE7AEF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E7BD031D39AD0A13C00385164130EE26 /* Products */,
+				2621ACEA7FB7B73D6F7BC5E1086987DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7BD031D39AD0A13C00385164130EE26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE4AC5686B57B9A1D5865DF453A536 /* Pods_SOLIDArch_Example.framework */,
+				1F41EC96A2E3E33D1EB7CE0EBA5BA15B /* Pods_SOLIDArch_Tests.framework */,
+				F1F9C0D664A77758E79C2B57378CE053 /* SOLIDArch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		372A4156014F28568B44ECA0AD8E59FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64827244580272DF4E910C35829BC4E /* Pods-SOLIDArch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA07910D86840A89B3DE63573574A3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CB0F48B529B44DD579E4A0AE2C984B /* SOLIDArch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01D495ADAB48D0AAA998E937EAD3EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECDB3AACC4C61BBA9BBC8EE759719AC /* Pods-SOLIDArch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DB2BE86BC5292671B63DDE15D316795 /* Pods-SOLIDArch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A06533E0F7453405D91390B710078B1 /* Build configuration list for PBXNativeTarget "Pods-SOLIDArch_Tests" */;
+			buildPhases = (
+				372A4156014F28568B44ECA0AD8E59FD /* Headers */,
+				0FBF80E367049B729E9CF48E0D3E76C9 /* Sources */,
+				9A2BB4F6EB19024ACAF1F4A91CEDDE08 /* Frameworks */,
+				C288471818083A1A966372A836439622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				228FE885FD5082DF8A432C0B0F03AA72 /* PBXTargetDependency */,
+			);
+			name = "Pods-SOLIDArch_Tests";
+			productName = "Pods-SOLIDArch_Tests";
+			productReference = 1F41EC96A2E3E33D1EB7CE0EBA5BA15B /* Pods_SOLIDArch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5134B07C5F01475EF575B437FCAA58C0 /* SOLIDArch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC30F327C262388F282E5F51A020EC9A /* Build configuration list for PBXNativeTarget "SOLIDArch" */;
+			buildPhases = (
+				5BA07910D86840A89B3DE63573574A3C /* Headers */,
+				B6C33AD4528F2D37E275FC9C102784EB /* Sources */,
+				0F4E8837B767B4F98402E47CF9C7E291 /* Frameworks */,
+				7557C37A8C0C10F313538047ED692FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOLIDArch;
+			productName = SOLIDArch;
+			productReference = F1F9C0D664A77758E79C2B57378CE053 /* SOLIDArch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0994594612A32884C7B86A5CE8AEDEF /* Pods-SOLIDArch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78FE0905B3F6AC9FAFC6E215F2BA1BF /* Build configuration list for PBXNativeTarget "Pods-SOLIDArch_Example" */;
+			buildPhases = (
+				8D01D495ADAB48D0AAA998E937EAD3EE /* Headers */,
+				D492C6DAA9884D691BBA5B83D9D50C54 /* Sources */,
+				340165FFA8E353CA9D939D8C8D408DEB /* Frameworks */,
+				F69C99E8A21A7A26C0A506AFBD430F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E92C89FE6AF1F9DFE7E49D945691FD3 /* PBXTargetDependency */,
+			);
+			name = "Pods-SOLIDArch_Example";
+			productName = "Pods-SOLIDArch_Example";
+			productReference = B4EE4AC5686B57B9A1D5865DF453A536 /* Pods_SOLIDArch_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					B0994594612A32884C7B86A5CE8AEDEF = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E7BD031D39AD0A13C00385164130EE26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0994594612A32884C7B86A5CE8AEDEF /* Pods-SOLIDArch_Example */,
+				1DB2BE86BC5292671B63DDE15D316795 /* Pods-SOLIDArch_Tests */,
+				5134B07C5F01475EF575B437FCAA58C0 /* SOLIDArch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7557C37A8C0C10F313538047ED692FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C288471818083A1A966372A836439622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69C99E8A21A7A26C0A506AFBD430F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FBF80E367049B729E9CF48E0D3E76C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2E3B11078023DE9A0A13F3D3574EE5 /* Pods-SOLIDArch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C33AD4528F2D37E275FC9C102784EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB166E323CA02E200D1A9BD /* TableViewDataSource.swift in Sources */,
+				DAB166E423CA02E600D1A9BD /* ViewModelDataProvider.swift in Sources */,
+				DAB166E023CA02D700D1A9BD /* Configurable.swift in Sources */,
+				DAB166E123CA02DB00D1A9BD /* ItemViewModel.swift in Sources */,
+				DAB166DF23CA02D300D1A9BD /* ArrayDataProvider.swift in Sources */,
+				DAB166E223CA02DE00D1A9BD /* TableViewCellFabric.swift in Sources */,
+				60F84CA2EC7D136D40A6E69381C40058 /* SOLIDArch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D492C6DAA9884D691BBA5B83D9D50C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C387BC055183A037B28C88A63F7F2587 /* Pods-SOLIDArch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		228FE885FD5082DF8A432C0B0F03AA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SOLIDArch_Example";
+			target = B0994594612A32884C7B86A5CE8AEDEF /* Pods-SOLIDArch_Example */;
+			targetProxy = 77EDFF2903D6F76C551092001900B8E6 /* PBXContainerItemProxy */;
+		};
+		6E92C89FE6AF1F9DFE7E49D945691FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SOLIDArch;
+			target = 5134B07C5F01475EF575B437FCAA58C0 /* SOLIDArch */;
+			targetProxy = 9BB48EFBD9EF36C0AC96FB4FBB3744FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F7E08466FAB933AFE42F7F59EE57434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AC17BB7C184AE15FBE0D0741A07014 /* SOLIDArch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SOLIDArch/SOLIDArch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SOLIDArch/SOLIDArch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				MODULEMAP_FILE = "Target Support Files/SOLIDArch/SOLIDArch.modulemap";
+				PRODUCT_MODULE_NAME = SOLIDArch;
+				PRODUCT_NAME = SOLIDArch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22DD597DF31BDB1613C13B8C85D564A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0817EA71EB9346BB8207C990E30C6562 /* Pods-SOLIDArch_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SOLIDArch_Tests/Pods-SOLIDArch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SOLIDArch_Tests/Pods-SOLIDArch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		379ABF5529E1BE0FD56C11EB1296C262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6CA7ACBFCE34770B8CE552BA422E21 /* Pods-SOLIDArch_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SOLIDArch_Tests/Pods-SOLIDArch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SOLIDArch_Tests/Pods-SOLIDArch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F55981548EC8AABAFB0A3604F07A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DADDC896F45876986C1DCC6FE56EDA /* Pods-SOLIDArch_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SOLIDArch_Example/Pods-SOLIDArch_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SOLIDArch_Example/Pods-SOLIDArch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88E4C6D2BC4A1256E318E577359A51F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFAAE41762FF405A338E665A68241C5 /* Pods-SOLIDArch_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SOLIDArch_Example/Pods-SOLIDArch_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SOLIDArch_Example/Pods-SOLIDArch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D3E0130C605F94681A81DB467AC01355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AC17BB7C184AE15FBE0D0741A07014 /* SOLIDArch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SOLIDArch/SOLIDArch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SOLIDArch/SOLIDArch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				MODULEMAP_FILE = "Target Support Files/SOLIDArch/SOLIDArch.modulemap";
+				PRODUCT_MODULE_NAME = SOLIDArch;
+				PRODUCT_NAME = SOLIDArch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A06533E0F7453405D91390B710078B1 /* Build configuration list for PBXNativeTarget "Pods-SOLIDArch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379ABF5529E1BE0FD56C11EB1296C262 /* Debug */,
+				22DD597DF31BDB1613C13B8C85D564A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC30F327C262388F282E5F51A020EC9A /* Build configuration list for PBXNativeTarget "SOLIDArch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E0130C605F94681A81DB467AC01355 /* Debug */,
+				0F7E08466FAB933AFE42F7F59EE57434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78FE0905B3F6AC9FAFC6E215F2BA1BF /* Build configuration list for PBXNativeTarget "Pods-SOLIDArch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F55981548EC8AABAFB0A3604F07A20 /* Debug */,
+				88E4C6D2BC4A1256E318E577359A51F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

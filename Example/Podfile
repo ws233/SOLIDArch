@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SOLIDArch_Example' do
+  pod 'SOLIDArch', :path => '../'
+
+  target 'SOLIDArch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

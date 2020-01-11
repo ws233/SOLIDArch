@@ -1,0 +1,6 @@
+framework module SOLIDArch {
+  umbrella header "SOLIDArch-umbrella.h"
+
+  export *
+  module * { export * }
+}
