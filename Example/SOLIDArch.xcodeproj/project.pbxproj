@@ -14,12 +14,13 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6D95FDD480851CFB43F24ED5 /* Pods_SOLIDArch_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F06A501D7BABF33CD868556 /* Pods_SOLIDArch_Example.framework */; };
-		DAB166D023CA000600D1A9BD /* SimpleArchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166CF23CA000600D1A9BD /* SimpleArchTableViewController.swift */; };
 		DAB166D823CA016300D1A9BD /* DetailedTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166D223CA016300D1A9BD /* DetailedTextTableViewCell.swift */; };
 		DAB166D923CA016300D1A9BD /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166D323CA016300D1A9BD /* TextTableViewCell.swift */; };
 		DAB166DA23CA016300D1A9BD /* TextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166D523CA016300D1A9BD /* TextViewModel.swift */; };
 		DAB166DB23CA016300D1A9BD /* ValueSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166D623CA016300D1A9BD /* ValueSettingViewModel.swift */; };
 		DAB166DC23CA016300D1A9BD /* SwitchedSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB166D723CA016300D1A9BD /* SwitchedSettingViewModel.swift */; };
+		DAC187D223D2FBFD00AE7B22 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC187D123D2FBFD00AE7B22 /* FirstTableViewController.swift */; };
+		DAC187D723D2FDBA00AE7B22 /* FirstDataSourceFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC187D623D2FDBA00AE7B22 /* FirstDataSourceFabric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +50,13 @@
 		97E725A549503CD4BA266626 /* Pods-SOLIDArch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOLIDArch_Example.release.xcconfig"; path = "Target Support Files/Pods-SOLIDArch_Example/Pods-SOLIDArch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		98F202C05DAE10815F331A73 /* SOLIDArch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SOLIDArch.podspec; path = ../SOLIDArch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9FA08CDDA0ED9388B299F43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DAB166CF23CA000600D1A9BD /* SimpleArchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleArchTableViewController.swift; sourceTree = "<group>"; };
 		DAB166D223CA016300D1A9BD /* DetailedTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedTextTableViewCell.swift; sourceTree = "<group>"; };
 		DAB166D323CA016300D1A9BD /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		DAB166D523CA016300D1A9BD /* TextViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewModel.swift; sourceTree = "<group>"; };
 		DAB166D623CA016300D1A9BD /* ValueSettingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueSettingViewModel.swift; sourceTree = "<group>"; };
 		DAB166D723CA016300D1A9BD /* SwitchedSettingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchedSettingViewModel.swift; sourceTree = "<group>"; };
+		DAC187D123D2FBFD00AE7B22 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		DAC187D623D2FDBA00AE7B22 /* FirstDataSourceFabric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDataSourceFabric.swift; sourceTree = "<group>"; };
 		EAEB6A23CE2E572C83B58834 /* Pods-SOLIDArch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOLIDArch_Tests.release.xcconfig"; path = "Target Support Files/Pods-SOLIDArch_Tests/Pods-SOLIDArch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F688F0EF7FAAE617F866C300 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				DAC187D523D2FD9400AE7B22 /* Fabric */,
 				DAB166D123CA016300D1A9BD /* TableViewCells */,
 				DAB166CE23CA000600D1A9BD /* TableViewControllers */,
 				DAB166D423CA016300D1A9BD /* ViewModels */,
@@ -163,7 +166,7 @@
 		DAB166CE23CA000600D1A9BD /* TableViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DAB166CF23CA000600D1A9BD /* SimpleArchTableViewController.swift */,
+				DAC187D123D2FBFD00AE7B22 /* FirstTableViewController.swift */,
 			);
 			path = TableViewControllers;
 			sourceTree = "<group>";
@@ -185,6 +188,14 @@
 				DAB166D723CA016300D1A9BD /* SwitchedSettingViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DAC187D523D2FD9400AE7B22 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				DAC187D623D2FDBA00AE7B22 /* FirstDataSourceFabric.swift */,
+			);
+			path = Fabric;
 			sourceTree = "<group>";
 		};
 		EF45EDA991D166A0E551CF22 /* Pods */ = {
@@ -370,13 +381,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC187D223D2FBFD00AE7B22 /* FirstTableViewController.swift in Sources */,
 				DAB166D823CA016300D1A9BD /* DetailedTextTableViewCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				DAB166D923CA016300D1A9BD /* TextTableViewCell.swift in Sources */,
 				DAB166DB23CA016300D1A9BD /* ValueSettingViewModel.swift in Sources */,
+				DAC187D723D2FDBA00AE7B22 /* FirstDataSourceFabric.swift in Sources */,
 				DAB166DC23CA016300D1A9BD /* SwitchedSettingViewModel.swift in Sources */,
 				DAB166DA23CA016300D1A9BD /* TextViewModel.swift in Sources */,
-				DAB166D023CA000600D1A9BD /* SimpleArchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

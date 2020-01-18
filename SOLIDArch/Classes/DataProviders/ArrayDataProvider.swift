@@ -12,9 +12,11 @@ import Foundation
 /// Represents a simple array of view models of type `T` as a one sectioned table view list
 public class ArrayDataProvider<T: ItemViewModel> {
     let array: [T]
-    
-    public init(array: [T]) {
+    let sectionTitle: String?
+
+    public init(array: [T], sectionTitle: String? = nil) {
         self.array = array
+        self.sectionTitle = sectionTitle
     }
 }
 
@@ -37,4 +39,19 @@ extension ArrayDataProvider: ViewModelDataProvider {
         }
         return array[indexPath.row]
     }
+    
+    public func title(forSection section: Int) -> String? {
+        return sectionTitle
+    }
+    
+    public func sectionIndexTitles() -> [String]? {
+        guard let count = sectionTitle?.count,
+            count > 0,
+            let substring = sectionTitle?.prefix(1)
+            else {
+                return nil
+        }
+        return [String(substring)]
+    }
+
 }

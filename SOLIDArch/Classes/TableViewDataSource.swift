@@ -63,6 +63,14 @@ extension TableViewDataSource: UITableViewDataSource {
         let cell = fabric.makeCell(for: tableView, at: indexPath, with: viewModel)
         return cell
     }
+    
+    public func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return dataProvider.title(forSection: section)
+    }
+    
+    public func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+        return dataProvider.sectionIndexTitles()
+    }
 }
 
 // MARK: - Private

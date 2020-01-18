@@ -14,4 +14,6 @@ public protocol ViewModelDataProvider {
     func numberOfSections() -> Int
     func numberOfRows(inSection section: Int) -> Int
     func itemForRow(atIndexPath indexPath: IndexPath) -> ItemViewModel?
+    func title(forSection section: Int) -> String?
+    func sectionIndexTitles() -> [String]?
 }
