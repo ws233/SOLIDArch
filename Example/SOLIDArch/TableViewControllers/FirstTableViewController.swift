@@ -9,11 +9,6 @@
 import UIKit
 import SOLIDArch
 
-protocol FirstDataSourceFibricProtocol {
-    func makePlainListDataSource() -> UITableViewDataSource?
-    func makeSectionDevidedDataSource() -> UITableViewDataSource?
-}
-
 class FirstTableViewController: UITableViewController {
     
     let factory: FirstTableViewFactoryProtocol
@@ -36,8 +31,10 @@ class FirstTableViewController: UITableViewController {
         }
         switch segue.identifier {
         case "plainListDataSegue":
+            destinationTableViewController.delegate = factory.makePlainListDelegate()
             destinationTableViewController.dataSource = factory.makePlainListDataSource()
         case "sectionDevidedDataSegue":
+            destinationTableViewController.delegate = factory.makeSectionDevidedDelegate()
             destinationTableViewController.dataSource = factory.makeSectionDevidedDataSource()
         default:
             break

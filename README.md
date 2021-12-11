@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/SOLIDArch.svg?style=flat)](https://cocoapods.org/pods/SOLIDArch)
 [![Platform](https://img.shields.io/cocoapods/p/SOLIDArch.svg?style=flat)](https://cocoapods.org/pods/SOLIDArch)
 
-Reusable abstract implementations of `UITableView` data sources and delegates for the [articles](https://habr.com/ru/company/cian/blog/589591/).
+Reusable abstract implementations of `UITableView` data sources and delegates for the [articles](https://habr.com/ru/company/psb/blog/588332/).
 
 ## Example
 

@@ -56,11 +56,11 @@ extension TableViewDataSource: UITableViewDataSource {
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard
             let viewModel = dataProvider.itemForRow(atIndexPath: indexPath),
-            let Factory = cellFactory(viewModel: viewModel)
+            let factory = cellFactory(viewModel: viewModel)
             else {
                 return UITableViewCell()
         }
-        let cell = Factory.makeCell(for: tableView, at: indexPath, with: viewModel)
+        let cell = factory.makeCell(for: tableView, at: indexPath, with: viewModel)
         return cell
     }
     

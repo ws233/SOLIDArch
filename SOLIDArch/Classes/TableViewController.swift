@@ -22,9 +22,21 @@ public class TableViewController: UITableViewController, ConfigurableTableViewCo
             tableView.reloadData()
         }
     }
+
+    public var delegate: UITableViewDelegate? {
+        didSet {
+            guard isViewLoaded else {
+                return
+            }
+
+            tableView.delegate = delegate
+        }
+    }
     
     override public func viewDidLoad() {
         super.viewDidLoad()
+
+        tableView.delegate = delegate
         tableView.dataSource = dataSource
     }
 }

@@ -12,5 +12,7 @@ import UIKit
 /// The table view controller has the `dataSource` property of the system `UITableViewDataSource` protocol,
 /// which might be set to configure the controller table view presentation
 public protocol ConfigurableTableViewController where Self: UITableViewController {
+
+    var delegate: UITableViewDelegate? { get set }
     var dataSource: UITableViewDataSource? { get set }
 }

@@ -10,6 +10,7 @@
 		5E7C9ED57EC448B419E5C45AA5383793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		60F84CA2EC7D136D40A6E69381C40058 /* SOLIDArch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2760C58FD1314075D5A5CB60A446DC29 /* SOLIDArch-dummy.m */; };
 		658EC00325D37BFB40C5941A30F30051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		66EF33BD2764BF9900AA2673 /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF33BC2764BF9900AA2673 /* TableViewDelegate.swift */; };
 		6ECDB3AACC4C61BBA9BBC8EE759719AC /* Pods-SOLIDArch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6033209716BC4236FEE801ACEC78672B /* Pods-SOLIDArch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89CB0F48B529B44DD579E4A0AE2C984B /* SOLIDArch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D56EBB2FD1BBB262E25A07E01008A426 /* SOLIDArch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E2E3B11078023DE9A0A13F3D3574EE5 /* Pods-SOLIDArch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DCE1D4BDECB425AEF499B6D961759D /* Pods-SOLIDArch_Tests-dummy.m */; };
@@ -58,6 +59,7 @@
 		54DADDC896F45876986C1DCC6FE56EDA /* Pods-SOLIDArch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOLIDArch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		56DB6D36C69F6687D27F1CF53517AE3B /* Pods-SOLIDArch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SOLIDArch_Example-dummy.m"; sourceTree = "<group>"; };
 		6033209716BC4236FEE801ACEC78672B /* Pods-SOLIDArch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SOLIDArch_Example-umbrella.h"; sourceTree = "<group>"; };
+		66EF33BC2764BF9900AA2673 /* TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewDelegate.swift; path = SOLIDArch/Classes/TableViewDelegate.swift; sourceTree = "<group>"; };
 		6CFAAE41762FF405A338E665A68241C5 /* Pods-SOLIDArch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SOLIDArch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8F93A530FBEDC9868C99626B258D0840 /* SOLIDArch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SOLIDArch-Info.plist"; sourceTree = "<group>"; };
 		9B5B3AE052BE870B7D0A975DCE28AF3B /* Pods-SOLIDArch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SOLIDArch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				DAB166C323C9FF7100D1A9BD /* TableViewCellFactory.swift */,
 				DAC187E323D30F2C00AE7B22 /* TableViewController.swift */,
 				DAB166C223C9FF7100D1A9BD /* TableViewDataSource.swift */,
+				66EF33BC2764BF9900AA2673 /* TableViewDelegate.swift */,
 				DAB166C623C9FF7100D1A9BD /* ViewModelDataProvider.swift */,
 			);
 			name = SOLIDArch;
@@ -420,6 +423,7 @@
 				DAC187E923D3135F00AE7B22 /* ConfigurableTableViewController.swift in Sources */,
 				DAC187E223D2FF7800AE7B22 /* SectionDataProvider.swift in Sources */,
 				DAC187E523D3103500AE7B22 /* TableViewController.swift in Sources */,
+				66EF33BD2764BF9900AA2673 /* TableViewDelegate.swift in Sources */,
 				60F84CA2EC7D136D40A6E69381C40058 /* SOLIDArch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

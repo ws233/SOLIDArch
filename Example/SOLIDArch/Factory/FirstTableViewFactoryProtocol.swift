@@ -9,10 +9,16 @@
 import Foundation
 import UIKit
 
-typealias FirstTableViewFactoryProtocol = FirstDataSourceFactoryProtocol
+typealias FirstTableViewFactoryProtocol = FirstDataSourceFactoryProtocol & FirstDelegateFactoryProtocol
 
 protocol FirstDataSourceFactoryProtocol {
 
     func makePlainListDataSource() -> UITableViewDataSource?
     func makeSectionDevidedDataSource() -> UITableViewDataSource?
+}
+
+protocol FirstDelegateFactoryProtocol {
+
+    func makePlainListDelegate() -> UITableViewDelegate
+    func makeSectionDevidedDelegate() -> UITableViewDelegate
 }
