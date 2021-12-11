@@ -18,7 +18,7 @@ import UIKit
 public class TableViewDataSource: NSObject {
     let dataProvider: ViewModelDataProvider
     
-    private lazy var itemViewModelClassToFabricMapping = [String: TableViewCellFabric]()
+    private lazy var itemViewModelClassToFactoryMapping = [String: TableViewCellFactory]()
     
     public init(dataProvider: ViewModelDataProvider) {
         self.dataProvider = dataProvider
@@ -37,9 +37,9 @@ extension TableViewDataSource {
     ///   - itemViewModelClass: the corresponding view model class, for which the cell is dequeuing
     public func registerCell<Cell>(class: Cell.Type, identifier: String, for itemViewModelClass: ItemViewModel.Type)
         where Cell: UITableViewCell & Configurable {
-        let cellFabric = GenericTableViewCellFabric<Cell>(cellIdentifier: identifier)
+        let cellFactory = GenericTableViewCellFactory<Cell>(cellIdentifier: identifier)
         let itemViewModelTypeString = "\(itemViewModelClass)"
-        itemViewModelClassToFabricMapping[itemViewModelTypeString] = cellFabric
+        itemViewModelClassToFactoryMapping[itemViewModelTypeString] = cellFactory
     }
 }
 
@@ -56,11 +56,11 @@ extension TableViewDataSource: UITableViewDataSource {
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard
             let viewModel = dataProvider.itemForRow(atIndexPath: indexPath),
-            let fabric = cellFabric(viewModel: viewModel)
+            let Factory = cellFactory(viewModel: viewModel)
             else {
                 return UITableViewCell()
         }
-        let cell = fabric.makeCell(for: tableView, at: indexPath, with: viewModel)
+        let cell = Factory.makeCell(for: tableView, at: indexPath, with: viewModel)
         return cell
     }
     
@@ -75,9 +75,9 @@ extension TableViewDataSource: UITableViewDataSource {
 
 // MARK: - Private
 private extension TableViewDataSource {
-    func cellFabric(viewModel: ItemViewModel) -> TableViewCellFabric? {
+    func cellFactory(viewModel: ItemViewModel) -> TableViewCellFactory? {
         let viewModelType = type(of: viewModel)
         let viewModelTypeString = "\(viewModelType)"
-        return itemViewModelClassToFabricMapping[viewModelTypeString]
+        return itemViewModelClassToFactoryMapping[viewModelTypeString]
     }
 }

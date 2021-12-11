@@ -16,16 +16,16 @@ protocol FirstDataSourceFibricProtocol {
 
 class FirstTableViewController: UITableViewController {
     
-    let dataSourceFabric: FirstDataSourceFibricProtocol
+    let factory: FirstTableViewFactoryProtocol
     
     // MARK: - Lifecycle
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        dataSourceFabric = FirstDataSourceFabric()
+        factory = FirstDataSourceFactory()
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
     
     required init?(coder aDecoder: NSCoder) {
-        dataSourceFabric = FirstDataSourceFabric()
+        factory = FirstDataSourceFactory()
         super.init(coder: aDecoder)
     }
 
@@ -36,9 +36,9 @@ class FirstTableViewController: UITableViewController {
         }
         switch segue.identifier {
         case "plainListDataSegue":
-            destinationTableViewController.dataSource = dataSourceFabric.makePlainListDataSource()
+            destinationTableViewController.dataSource = factory.makePlainListDataSource()
         case "sectionDevidedDataSegue":
-            destinationTableViewController.dataSource = dataSourceFabric.makeSectionDevidedDataSource()
+            destinationTableViewController.dataSource = factory.makeSectionDevidedDataSource()
         default:
             break
         }
