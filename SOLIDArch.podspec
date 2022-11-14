@@ -33,7 +33,7 @@ The fool explanation is in https://habr.com/ru/company/psb/blog/588332/
   s.ios.deployment_target = '11.0'
   s.swift_versions = '5.0'
 
-  s.source_files = 'SOLIDArch/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   
   # s.resource_bundles = {
   #   'SOLIDArch' => ['SOLIDArch/Assets/*.png']
