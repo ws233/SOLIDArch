@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SOLIDArch'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'The basic classes for implementing SOLID architecture in Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 The basic classes for implementing SOLID architecture in Swift.
 Contains universal `UITableViewDataSource` implementation.
+The fool explanation is in https://habr.com/ru/company/psb/blog/588332/
                        DESC
 
   s.homepage         = 'https://github.com/ws233/SOLIDArch'
