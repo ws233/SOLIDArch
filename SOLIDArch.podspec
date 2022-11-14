@@ -30,7 +30,7 @@ The fool explanation is in https://habr.com/ru/company/psb/blog/588332/
   s.source           = { :git => 'https://github.com/ws233/SOLIDArch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
   s.swift_versions = '5.0'
 
   s.source_files = 'SOLIDArch/Classes/**/*'
